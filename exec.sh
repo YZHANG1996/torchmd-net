@@ -3,11 +3,7 @@
 APPDIR=`dirname $0`
 cd ./repo
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
-bash Mambaforge-Linux-x86_64.sh <<EOF
-Yes
-Yes
-Yes
-EOF
+bash Mambaforge-Linux-x86_64.sh -y
 conda init
 source ~/.bashrc
 mamba env create -f environment.yml
