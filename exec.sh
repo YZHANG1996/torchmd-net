@@ -6,6 +6,8 @@ wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforg
 bash Mambaforge-Linux-x86_64.sh <<EOF
 yes
 yes
+
+yes
 EOF
 source ~/.bashrc
 mamba env create -f environment.yml
