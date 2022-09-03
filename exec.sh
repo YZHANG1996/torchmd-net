@@ -4,10 +4,10 @@ APPDIR=`dirname $0`
 cd ./repo
 wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
 bash Mambaforge-Linux-x86_64.sh <<EOF
-yes
-yes
+# yes
+# yes
 
-yes
+# yes
 EOF
 # ls -l /bin/sh
 # bash
