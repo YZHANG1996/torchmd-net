@@ -9,10 +9,11 @@ yes
 
 yes
 EOF
-ls -l /bin/sh
-bash
-ls -l /bin/sh
-source ~/.bashrc
+# ls -l /bin/sh
+# bash
+# ls -l /bin/sh
+# source ~/.bashrc
+. ~/.bashrc
 mamba env create -f environment.yml
 mamba activate torchmd-net
 pip install -e .
