@@ -11,6 +11,7 @@ yes
 EOF
 ls -l /bin/sh
 bash
+ls -l /bin/sh
 source ~/.bashrc
 mamba env create -f environment.yml
 mamba activate torchmd-net
