@@ -16,7 +16,7 @@ EOF
 . ~/.bashrc
 which mamba
 /home/i22_yzhang/mambaforge/bin/mamba env create -f environment.yml
-/home/i22_yzhang/mambaforge/bin/conda activate torchmd-net
+. activate torchmd-net
 pip install -e .
 # mkdir logs
 # cp examples/ET-QM9.yaml .
